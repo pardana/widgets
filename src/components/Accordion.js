@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Accordion() {
-  return (
-    <div>Accordion</div>
-  )
+function Accordion({ items }) {
+  return <div>{items.length}</div>;
 }
 
-export default Accordion
+export default Accordion;
